@@ -1,0 +1,46 @@
+body{
+    background: black;
+}
+.box{
+    /* padding-left: 500px; */
+    /* margin-left: 50%; */
+    width: 300px;
+    height: 370px;
+    /* margin: 0px;
+    padding: 0px; */
+    /* margin-bottom: 15px; */
+    float: left;
+    /* background: rgb(216, 176, 176); */
+    background: linear-gradient(red,blue ,orange);
+    border: solid 1px #D5D5D5;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.circle{
+    /* margin-top: 4px; */
+    width: 100px;
+    height: 130px;
+    /* background: red; */
+    /* margin-left: 20px; */
+    /* margin-left: 50%; */
+    border-radius: 50%;
+    padding-left: 30%;
+
+}
+.circle img{
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+}
+.circle h5{
+    margin: 0px ;
+    padding: 2px 0;
+    text-align: center;
+    color: white;
+}
+.play_area{
+    width: 100%;
+    padding-top: 60%;
+}

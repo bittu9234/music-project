@@ -1,0 +1,100 @@
+body{
+    background: black;
+    color: white;
+    
+}
+.toparea{
+    width: 100%;
+    
+    margin-bottom: 5px;
+    background: black;
+    text-align: center;
+    top:0;
+    z-index: 1000;
+    border-bottom: solid 1px whitesmoke;
+}
+.toparea img{
+    margin: 0px;
+    width: 100px;
+    background: blue;
+}
+.toparea h1{
+    margin: 0px;
+    text-align: center;
+    background:linear-gradient(red,blue,orange);
+    color: white;
+    text-overflow:clip;
+    text-shadow: black;
+}
+.toparea a  ul{
+    margin: 0px;
+    list-style: none;
+    float: left;
+
+}
+.topsong_wid{
+    margin: 0px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.topartic_wid{
+    margin: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.searcarea{
+    background: orange;
+    border-radius: 5px;
+}
+.searcarea h3{
+    margin: 0px;
+    padding: 10px 0;
+}
+
+
+.song_name{
+    /* overflow-x: auto; */
+    overflow: hidden;
+}
+.song_name h4{
+    margin: 0px;
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+.slidearea img{
+    width: 300px;
+    height: 420px;
+    margin-bottom: 10px;
+}
+.box{
+    width: 120px;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    /* margin: 5px ; */
+    /* padding: 10px; */
+    float: left;
+    text-align: left;
+    background: white;
+    border: solid 1px #D5D5D5;
+    
+    overflow:hidden
+    
+} 
+.box img{
+    width: 100%;
+    transition: all 1s;
+}
+.box:hover img{
+    transform: scale(1.1 ,1.1);
+}
+.over{
+    margin: 0px;
+    padding: 0px;
+}
+.foot{
+    background: red;
+}

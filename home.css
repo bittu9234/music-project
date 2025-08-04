@@ -1,0 +1,48 @@
+body{
+    background: black;
+}
+.slidearea img{
+    width: 300px;
+    height: 420px;
+    margin-bottom: 10px;
+}
+/* #carouselExampleCaptions img{
+    width: 200px;
+
+} */
+/* .hindi {
+    margin: 0px;
+    overflow: auto;
+} */
+.song_name h4{
+    margin: 0px;
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+.box{
+    width: 120px;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    /* margin: 5px ; */
+    /* padding: 10px; */
+    float: left;
+    text-align: left;
+    background: white;
+    border: solid 1px #D5D5D5;
+    
+    overflow:hidden
+    
+} 
+.box img{
+    width: 100%;
+    transition: all 1s;
+}
+.box:hover img{
+    transform: scale(1.1 ,1.1);
+}
+.over{
+    margin: 0px;
+    padding: 0px;
+}

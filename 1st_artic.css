@@ -1,0 +1,122 @@
+body{
+    background: black;
+    color: white;
+    
+}
+.toparea{
+    width: 100%;
+    
+    margin-bottom: 5px;
+    background: black;
+    text-align: center;
+    top:0;
+    z-index: 1000;
+    border-bottom: solid 1px whitesmoke;
+}
+.toparea img{
+    margin: 0px;
+    width: 100px;
+    background: blue;
+}
+.toparea h1{
+    margin: 0px;
+    text-align: center;
+    background:linear-gradient(red,blue,orange);
+    color: white;
+    text-overflow:clip;
+    text-shadow: black;
+}
+.toparea a  ul{
+    margin: 0px;
+    list-style: none;
+    float: left;
+
+}
+.topsong_wid{
+    margin: 0px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.topartic_wid{
+    margin: 0px;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.searcarea{
+    background: orange;
+    border-radius: 5px;
+}
+.searcarea h3{
+    margin: 0px;
+    padding: 10px 0;
+}
+
+
+.song_name{
+    overflow-x: auto;
+}
+.song_name h4{
+    margin: 0px;
+    padding: 10px 0;
+    margin-bottom: 2px;
+}
+/* .articarea{
+    margin: 10px 680px;
+} */
+.articarea{
+    background:linear-gradient( rgb(174, 167, 167),rgb(29, 29, 32));
+    /* background: rgba(225,255,255,0.7);
+    color: ; */
+} 
+.arcol2 h1{
+    text-align: left;
+    /* text-align: start; */
+}
+.box{
+    width: 150px;
+    height: 170px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 15px;
+    float: left;
+    /* background: rgb(216, 176, 176); */
+    background: linear-gradient(red,blue ,orange);
+    border: solid 1px #D5D5D5;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.circle{
+    margin-top: 4px;
+    width: 100px;
+    height: 130px;
+    background: red;
+    margin-left: 20px;
+    border-radius: 50%;
+
+}
+.circle img{
+    width: 100px;
+    height: 130px;
+    border-radius: 50%;
+}
+.circle h5{
+    margin: 0px ;
+    padding: 2px 0;
+    text-align: center;
+    color: white;
+}
+.songs{
+    background: black;
+}
+.songs ol{
+    text-decoration: none;
+}
+.songs li{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 5px;
+}
