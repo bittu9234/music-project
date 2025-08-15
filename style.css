@@ -16,7 +16,7 @@ body{
 .toparea img{
     margin: 0px;
     width: 100px;
-    background: blue;
+    background: transparent;
 }
 .toparea h1{
     margin: 0px;
@@ -97,4 +97,7 @@ body{
 }
 .foot{
     background: red;
+}
+.ch{
+    background-image: linear-gradient(0,red , yellow);
 }
