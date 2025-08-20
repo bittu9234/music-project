@@ -1,6 +1,6 @@
 body{
-    background: black;
-    color: white;
+    background: rgb(244, 241, 241);
+    color: black;
     
 }
 .toparea{
@@ -8,7 +8,7 @@ body{
     
     margin-bottom: 5px;
     background: black;
-    text-align: center;
+    /* text-align: center; */
     top:0;
     z-index: 1000;
     border-bottom: solid 1px whitesmoke;
@@ -20,8 +20,8 @@ body{
 }
 .toparea h1{
     margin: 0px;
-    text-align: center;
-    background:linear-gradient(red,blue,orange);
+    /* text-align: center; */
+    /* background:linear-gradient(red,blue,orange); */
     color: white;
     text-overflow:clip;
     text-shadow: black;
@@ -67,6 +67,7 @@ body{
     width: 300px;
     height: 420px;
     margin-bottom: 10px;
+
 }
 .box{
     width: 120px;
@@ -80,6 +81,7 @@ body{
     text-align: left;
     background: white;
     border: solid 1px #D5D5D5;
+    overflow: hidden;
     
     overflow:hidden
     
