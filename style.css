@@ -65,7 +65,7 @@ body {
 }
 .slider-item img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 .slider-btn {
   position: absolute;
