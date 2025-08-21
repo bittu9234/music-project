@@ -349,7 +349,12 @@
             updateSlide();
             resizeButtons();
         });
+        window.addEventListener("resize", () => {
+    currentIndex = 0; // reset slide position
+    track.style.transform = "translateX(0)";
+  });
     </script>
+    
 </body>
 
 </html>
