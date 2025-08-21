@@ -1,105 +1,134 @@
-body{
-    background: rgb(244, 241, 241);
-    color: black;
-    
+body {
+  background: rgb(244, 241, 241);
+  color: black;
 }
-.toparea{
-    width: 100%;
-    
-    margin-bottom: 5px;
-    background: black;
-    /* text-align: center; */
-    top:0;
-    z-index: 1000;
-    border-bottom: solid 1px whitesmoke;
-}
-.toparea img{
-    margin: 0px;
-    width: 100px;
-    background: transparent;
-}
-.toparea h1{
-    margin: 0px;
-    /* text-align: center; */
-    /* background:linear-gradient(red,blue,orange); */
-    color: white;
-    text-overflow:clip;
-    text-shadow: black;
-}
-.toparea a  ul{
-    margin: 0px;
-    list-style: none;
-    float: left;
+.toparea {
+  width: 100%;
 
+  margin-bottom: 5px;
+  background: black;
+  /* text-align: center; */
+  top: 0;
+  z-index: 1000;
+  border-bottom: solid 1px whitesmoke;
 }
-.topsong_wid{
-    margin: 0px;
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 10px;
+.toparea img {
+  margin: 0px;
+  width: 100px;
+  background: transparent;
 }
-.topartic_wid{
-    margin: 0px;
-    text-align: left;
-    padding-top: 10px;
-    padding-right: 10px;
+.toparea h1 {
+  margin: 0px;
+  /* text-align: center; */
+  /* background:linear-gradient(red,blue,orange); */
+  color: white;
+  text-overflow: clip;
+  text-shadow: black;
 }
-.searcarea{
-    background: orange;
-    border-radius: 5px;
+.toparea a ul {
+  margin: 0px;
+  list-style: none;
+  float: left;
 }
-.searcarea h3{
-    margin: 0px;
-    padding: 10px 0;
+.topsong_wid {
+  margin: 0px;
+  text-align: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.topartic_wid {
+  margin: 0px;
+  text-align: left;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.searcarea {
+  background: orange;
+  border-radius: 5px;
+}
+.searcarea h3 {
+  margin: 0px;
+  padding: 10px 0;
+}
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.slider-item {
+  flex: 0 0 20%; /* 100% / 5 = 20% => ek row me 5 item */
+  padding: 10px;
+}
+.slider-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 10;
+}
+.slider-btn.left {
+  left: 0;
+}
+.slider-btn.right {
+  right: 0;
 }
 
+.song_name {
+  /* overflow-x: auto; */
+  overflow: hidden;
+}
+.song_name h4 {
+  margin: 0px;
+  padding: 10px 0;
+  margin-bottom: 2px;
+}
+.slidearea img {
+  width: 300px;
+  height: 420px;
+  margin-bottom: 10px;
+}
+.box {
+  width: 120px;
+  height: 65px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 15px;
+  /* margin: 5px ; */
+  /* padding: 10px; */
+  float: left;
+  text-align: left;
+  background: white;
+  border: solid 1px #d5d5d5;
+  overflow: hidden;
 
-.song_name{
-    /* overflow-x: auto; */
-    overflow: hidden;
+  overflow: hidden;
 }
-.song_name h4{
-    margin: 0px;
-    padding: 10px 0;
-    margin-bottom: 2px;
+.box img {
+  width: 100%;
+  transition: all 1s;
 }
-.slidearea img{
-    width: 300px;
-    height: 420px;
-    margin-bottom: 10px;
-
+.box:hover img {
+  transform: scale(1.1, 1.1);
 }
-.box{
-    width: 120px;
-    height: 65px;
-    margin: 0px;
-    padding: 0px;
-    margin-bottom: 15px;
-    /* margin: 5px ; */
-    /* padding: 10px; */
-    float: left;
-    text-align: left;
-    background: white;
-    border: solid 1px #D5D5D5;
-    overflow: hidden;
-    
-    overflow:hidden
-    
-} 
-.box img{
-    width: 100%;
-    transition: all 1s;
+.over {
+  margin: 0px;
+  padding: 0px;
 }
-.box:hover img{
-    transform: scale(1.1 ,1.1);
+.foot {
+  background: red;
 }
-.over{
-    margin: 0px;
-    padding: 0px;
-}
-.foot{
-    background: red;
-}
-.ch{
-    background-image: linear-gradient(0,red , yellow);
+.ch {
+  background-image: linear-gradient(0, red, yellow);
 }
