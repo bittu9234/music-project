@@ -16,11 +16,14 @@ body {
   margin: 0px;
   width: 100px;
   background: transparent;
+  margin: 0px;
+  padding: 0px !important;
 }
 .toparea h1 {
   margin: 0px;
-  /* text-align: center; */
-  /* background:linear-gradient(red,blue,orange); */
+  text-align: center;
+  background:linear-gradient(red,blue,orange);
+  height: 50%;
   color: white;
   text-overflow: clip;
   text-shadow: black;
@@ -49,6 +52,13 @@ body {
 .searcarea h3 {
   margin: 0px;
   padding: 10px 0;
+}
+.pad{
+    padding: 0px !important;
+    background: black;
+}
+.pad2{
+    padding: 0px !important;
 }
 .slider-container {
   position: relative;
