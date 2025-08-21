@@ -60,6 +60,10 @@ body {
 .pad2 {
   padding: 0px !important;
 }
+.py-5{
+    padding-top:10px !important;
+    padding-bottom: 20px !important;
+}
 .slider-container {
   position: relative;
   overflow: hidden;
